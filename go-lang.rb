@@ -14,4 +14,14 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Go lang debugging'
+
+    entry do
+      command 'dlv'
+      name 'Source level debugger for Go programs - Delve'
+      notes 'Install: `brew tap go-delve/delve && brew install go-delve/delve/delve`'
+    end
+  end
+
 end
