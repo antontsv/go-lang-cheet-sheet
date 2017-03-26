@@ -12,6 +12,12 @@ cheatsheet do
       name 'HTTP benchmaking tool'
       notes 'Install tool using: `go get github.com/tsliwowicz/go-wrk`'
     end
+
+    entry do
+      command 'go-torch'
+      name 'Profiling tool'
+      notes 'Install tool using: `go get https://github.com/uber/go-torch`'
+    end
   end
 
   category do
