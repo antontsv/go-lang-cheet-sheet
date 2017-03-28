@@ -16,7 +16,13 @@ cheatsheet do
     entry do
       command 'go-torch'
       name 'Profiling tool'
-      notes 'Install tool using: `go get https://github.com/uber/go-torch`'
+      notes <<-'NOTES'
+        Install tool using: `go get https://github.com/uber/go-torch`
+
+        #### For flame graphs:
+        * git clone https://github.com/brendangregg/FlameGraph.git
+        * add \`pwd\`/FlameGraph to your `PATH`
+      NOTES
     end
   end
 
