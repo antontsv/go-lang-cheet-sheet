@@ -3,6 +3,14 @@ cheatsheet do
   docset_file_name 'go-lang'
   keyword 'gotools'
   source_url 'https://github.com/antontsv/go-lang-cheet-sheet'
+  style '
+  header {
+    background: linear-gradient(to left, #141E30 , #243B55);
+  }
+  section.category h2{
+    background: linear-gradient(to right, #52c234 , #061700);
+  }
+  '
 
   category do
     id 'Go lang benchmarking'
