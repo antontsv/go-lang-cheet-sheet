@@ -44,4 +44,13 @@ cheatsheet do
     end
   end
 
+  category do
+    id 'Out of the box tools'
+
+    entry do
+      command 'errcheck'
+      name 'Error check (linter) for go code'
+    end
+  end
+
 end
